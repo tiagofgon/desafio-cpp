@@ -27,14 +27,14 @@ a mensagem recebida, com o nome do arquivo TIMESTAMP_DA_MENSAGEM.json.
 # Observações
 
 - Sistema Operacional
-    - Debian 9
+    - [Debian](https://www.debian.org) _9_
 - Bibliotecas
-    - Poco C++
-    - ZeroMQ
-    - ZmqPP
+    - [Poco C++](https://pocoproject.org/) _1.9.0_
+    - [ZeroMQ](http://zeromq.org/) _4.x.x_
+    - [zmqpp](https://github.com/zeromq/zmqpp) _Branch master_
 - Plataforma
-    - CMake
-    - Make
+    - [CMake](https://cmake.org/) _3.13.4_
+    - [Make](https://www.gnu.org/software/make/) _last_
     
 ## Mecanismo de Emissão
 
