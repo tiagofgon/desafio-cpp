@@ -16,13 +16,13 @@ a mensagem recebida, com o nome do arquivo TIMESTAMP_DA_MENSAGEM.json.
 - Efetuar o Commit e o Push
 - Solicitar um Pull Request
 
-# Premissas:
+# Premissas
 
  - A posta do servidor e do cliente deverá ser configurável pelo arquivo MODULO/resources/config/MODULO.properties
  - O Topico do Pub/Sub do servidor e cliente também deverá ser configurada pelo arquivo de configuração de ambos os módulos
  - Comunicação TCP
 
-# Observações:
+# Observações
 
 - Sistema Operacional Debian 9
 - Poco C++
@@ -30,7 +30,7 @@ a mensagem recebida, com o nome do arquivo TIMESTAMP_DA_MENSAGEM.json.
 - ZeroMQPP
 - CMake
 
-# O que você deve nos entregar após a conclusão do desafio:
+# O que você deve nos entregar após a conclusão do desafio
 
 1) Código-fonte de tudo que foi desenvolvido, esteja o software funcionando ou
 não;
@@ -40,6 +40,6 @@ não;
 5) E por último, não menos importante, quais a dificuldades que você enfrentou
 no desafio
 
-# Ponto Extra:
+# Ponto Extra
 - Build sem Alertas de compilação
 - Google Code Style
