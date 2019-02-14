@@ -1,5 +1,4 @@
 # Desafio C++
-=============
 
 Esse desafio é a parte pratica, onde podemos analisar seu nível técnico, organização de código e arquitetura da solução.
 
@@ -12,7 +11,6 @@ Ao receber os dados, o software deverá salvar em arquivos localmente
 a mensagem recebida, com o nome do arquivo TIMESTAMP_DA_MENSAGEM.json.
 
 # Orientações
--------------
 
 - Efetuar um Fork desse Repositório para sua conta do GitHub
 - Fazer um Clone do seu Repositório
@@ -21,14 +19,12 @@ a mensagem recebida, com o nome do arquivo TIMESTAMP_DA_MENSAGEM.json.
 - Solicitar um Pull Request
 
 # Premissas
------------
 
  - A porta do servidor e do cliente deverá ser configurável pelo arquivo MODULO/resources/config/MODULO.properties
  - O Topico do Pub/Sub do servidor e cliente também deverá ser configurada pelo arquivo de configuração de ambos os módulos
  - Comunicação TCP
 
 # Observações
--------------
 
 - Sistema Operacional
     - Debian 9
@@ -41,12 +37,10 @@ a mensagem recebida, com o nome do arquivo TIMESTAMP_DA_MENSAGEM.json.
     - Make
     
 ## Mecanismo de Emissão
------------------------
 
 As mensagem são transmitidas em uma LAN usando o protocolo TCP/IP e padrão Publish/Subscribe implementado pela biblioteca ZeroMQ.
 
 ### Estruturação de Envelope Mensagens ZeroMQ
-----------------------------------------------
 
 Cada envelope de mensagem é transmitidas possuindo múltiplas partes, na seguinte ordem:
 
@@ -56,12 +50,12 @@ Cada envelope de mensagem é transmitidas possuindo múltiplas partes, na seguin
 
 A mensagem usa a notação *JSON* e possui os seguintes dados:
 
-```json{
+```json
+{
     "id": 1, 
     "velocidade": 100,
     "timestamp": "2017-01-03T13:35:22.103Z"
-    
-  }
+}
   ```
 Onde:
 * **id**: Inteiro - Identificador único Sequencial.
@@ -69,7 +63,6 @@ Onde:
 * **timestamp**: String  - Marca temporal UTC após a geração do numero randômico. ISO 8601 incluindo milissegundos.
 
 # O que você deve nos entregar após a conclusão do desafio
-----------------------------------------------------------
 
 1) Código-fonte de tudo que foi desenvolvido, esteja o software funcionando ou
 não;
