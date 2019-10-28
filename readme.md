@@ -23,10 +23,11 @@ Para correr o servidor:
 - $ ./servidor
 
 Para correr um cliente:
-$ ./cliente
+- $ ./cliente
 
 
 ## Observações
+Considero que fiz o que era esperado.
 O tempo aproximado que demorei a desenvolver este programa foi aproximadamente 12 horas.
 Mais de metade do tempo foi de pesquisa, porque nunca trabalhei com as bibliotecas recomendadas e tive que me habituar. Mas de um ponto de vista geral foi divertido e simples.
 A maior dificuldade foi tornar o programa configurável pelo arquivo MODULO/resources/config/MODULO.properties. Não conheço esta arquitetura, de modo que criei um ficheiro simples config.conf para poder alterar o IP e o tópico das mensagens.
