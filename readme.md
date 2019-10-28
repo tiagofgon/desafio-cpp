@@ -4,8 +4,8 @@ O servidor é responsável por enviar a publicação de mensagens (padrão Publi
 
 ## Bibliotecas
 As bibliotecas usadas para o desenvolvimento deste programa foram:
--ZeroMQ
--rapidjson
+- ZeroMQ
+- rapidjson
 
 ## Funcionamento do Programa
 De forma a usar a biblioteca ZMQ simlificada e com menos probabilidade de erros, uso as funções declaradas em "zhelpers.hpp".
