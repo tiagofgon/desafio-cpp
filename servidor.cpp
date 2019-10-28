@@ -7,7 +7,6 @@
 #include <cstdio>
 #include <stdlib.h>
 #include <time.h>
-#include <chrono>
 
 #include "zhelpers.hpp"
 #include "rapidjson/include/rapidjson/rapidjson.h"
@@ -45,8 +44,8 @@ int main () {
     rapidjson::Document dd;
     dd.ParseStream(is);
     fclose(file);
-    assert(dd["port"].IsInt());
-    int port  = dd["port"].GetInt();
+    assert(dd["porta"].IsInt());
+    int port  = dd["porta"].GetInt();
     std::string topico = dd["topico"].GetString();
 
     //address

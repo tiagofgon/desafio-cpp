@@ -22,8 +22,8 @@ int main () {
     rapidjson::Document dd;
     dd.ParseStream(is);
     fclose(file);
-    assert(dd["port"].IsInt());
-    int port  = dd["port"].GetInt();
+    assert(dd["porta"].IsInt());
+    int port  = dd["porta"].GetInt();
     std::string topico = dd["topico"].GetString();
 
     //address
