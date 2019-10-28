@@ -1,4 +1,4 @@
-# Resolução do desafio C++
+# Resolução do desafio C++, por Tiago Gonçalves
 A solução que proponho é uma arquitetura de cliente servidor na linguagem C++ para ambientes linux.
 O servidor é responsável por enviar a publicação de mensagens (padrão Publish/Subscribe do ZeroMQ), e o cliente escreve em ficheiro json a mensagem do tópico correspondente.
 
